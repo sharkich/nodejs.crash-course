@@ -1,0 +1,20 @@
+{
+  "name": "architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_PATH=. node --use_strict --optimize_for_size --max_old_space_size=920 --gc_interval=100 index.js",
+    "test": "echo \"Error: no test specified\" || true",
+    "postinstall": "echo \"All dependencies are set\"",
+    "preinstall": "echo \"Installing dependencies...\""
+  },
+  "author": "Sergii Tsegelnyk <dr3am3r.ua@gmail.com> (http://serhiy.co/)",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "1.1.2",
+    "dotenv": "2.0.0",
+    "fs-jetpack": "0.9.2",
+    "koa": "1.2.0"
+  }
+}
